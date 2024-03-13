@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Home, html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.Home, body {
+    background-color: #F0EAD6;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+}
+
+.Home, #homeHeader {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
