@@ -19,6 +19,10 @@
 #homeHeader {
     background-color: white;
     text-align: center;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    padding: 1rem;
 }
 
 #homeHeader h1 {
@@ -26,7 +30,6 @@
 }
 
 #homeHeader .Navbar {
-    float: right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,6 +58,7 @@
 #homeHeader .Navbar a:hover {
     color: black;
     background-color: violet;
+    white-space: nowrap;
 }
 
 #homeHeader img {
