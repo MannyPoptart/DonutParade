@@ -1,6 +1,6 @@
-First do in terminal: cd senior-project
+First do in terminal: cd DonutParade
 
-Then (if you don't see node_modules in senior-project folder) do: npm install
+Then (if you don't see node_modules in DonutParade folder) do: npm install
 
 Then do: npm run dev
 
