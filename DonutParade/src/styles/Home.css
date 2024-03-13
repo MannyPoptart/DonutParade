@@ -18,10 +18,7 @@
 
 #homeHeader {
     background-color: white;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    justify-content: space-between;
+    text-align: center;
 }
 
 #homeHeader h1 {
@@ -29,6 +26,7 @@
 }
 
 #homeHeader .Navbar {
+    float: right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,6 +38,11 @@
     flex-direction: row;
     list-style-type: none;
     padding: 1rem;
+}
+
+#homeHeader .Navbar ul li {
+    padding: 1rem;
+    text-align: center;
 }
 
 #homeHeader .Navbar a {
