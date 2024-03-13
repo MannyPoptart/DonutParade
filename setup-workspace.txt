@@ -1,0 +1,13 @@
+First do in terminal: cd senior-project
+
+Then (if you don't see node_modules in senior-project folder) do: npm install
+
+Then do: npm run dev
+
+To edit pages or add pages, you can do this in the pages folder found in the src folder
+
+To add/ edit styles, insert .css files into styles folder in the src folder
+
+Make sure to add each new page to the Navbar in the components folder in the src folder
+
+VERY IMPORTANT: import any new page into the App.jsx file and then into the const router
