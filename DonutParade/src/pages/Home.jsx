@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/Home.css'
+import DonutParadeLogo from '../assets/DonutParadeLogoblack.png'
 
 function Home() {
   return (
-    <div>
+    <div className="Home">
 
         <header id="homeHeader">
-            <h1>Welcome to Donut Parade</h1>
+            <img src={DonutParadeLogo} alt="Donut Parade Logo" />
+            <Navbar />
         </header>
 
-        <Navbar />
+        
 
 
 

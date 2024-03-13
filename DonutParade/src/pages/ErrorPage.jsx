@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/ErrorPage.css'
 
 function ErrorPage() {
   return (
-    <div>
+    <div className="ErrorPage">
 
         <h1>404 Error</h1>
 

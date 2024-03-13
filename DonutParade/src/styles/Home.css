@@ -9,15 +9,51 @@
 }
 
 .Home, body {
-    background-color: #F0EAD6;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: auto;
 }
 
-.Home, #homeHeader {
+#homeHeader {
+    background-color: white;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+#homeHeader h1 {
+    text-align: center;
+}
+
+#homeHeader .Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+}
+
+#homeHeader .Navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+#homeHeader .Navbar a {
+    font-size: 18pt;
+    text-decoration: none;
+    color: purple;
+    padding: 1rem;
+}
+
+#homeHeader .Navbar a:hover {
+    color: black;
+    background-color: violet;
+}
+
+#homeHeader img {
+    width: 130px;
 }
